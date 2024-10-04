@@ -155,29 +155,11 @@ generateBtn.addEventListener('click', () => {
         handleSlider();
     }
 
-    // let's start the jouney to find new password
     console.log("Starting the Journey");
-    //remove old password
+
     password = "";
 
-    //let's put the stuff mentioned by checkboxes
-
-    // if(uppercaseCheck.checked) {
-    //     password += generateUpperCase();
-    // }
-
-    // if(lowercaseCheck.checked) {
-    //     password += generateLowerCase();
-    // }
-
-    // if(numbersCheck.checked) {
-    //     password += generateRandomNumber();
-    // }
-
-    // if(symbolsCheck.checked) {
-    //     password += generateSymbol();
-    // }
-
+  
     let funcArr = [];
 
     if(uppercaseCheck.checked)
